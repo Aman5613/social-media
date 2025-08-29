@@ -22,7 +22,6 @@ const registerController = async (req, res) => {
 
 // login controller
 const loginController = async (req, res) => {
-  console.log(req.body);
   
   if (!req.body)
     return res.status(204).json({
