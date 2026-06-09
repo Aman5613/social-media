@@ -8,7 +8,7 @@ const ai = new GoogleGenAI({
 
 const genarateCaption = async (file) => {
   try {
-    // ✅ Convert multer buffer to base64
+    // ✅ Convert multer buffer to base64 testing the git guard
     const base64ImageData = file.buffer.toString("base64");
 
     // console.log(base64ImageData);
